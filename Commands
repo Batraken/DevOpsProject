@@ -41,6 +41,7 @@ man - справка
 type - информации о типе команды
 kill - сигналы процессу
 ss - используемые и прослушиваемые порты ss -tpln
+lsof - просмотр какие файлы использует процесс
 
 apt update - обновить списки пакетов из репозиториев
 apt upgrade - обновить версию пакета до последней, если пакет не указан будут обновлены все пакеты
@@ -65,7 +66,38 @@ Maven
 apt install maven
 mvn package - запаковать
 
-
 GIT
 apt install git
+git config --global user.name "Name"
+git global --global user.email mail@mail.ru
+init - инициировать репозиторий
+git status
+git add
+git commit
 git clone - скопировать репозиторий
+git log
+git diff
+git checkout - откатить комит и переключение веток, создание веток
+git remote add - добавить удалённый репозиторий
+git push
+git pull
+git show - изменения которые были подтянуты
+git branch - ветки
+git merge - слияние веток
+
+Tomcat
+apt install Tomcat
+/var/lib/tomcat9/webapps/ - рабочая дерриктория томката по умолчанию
+
+Docker
+apt install docker.io
+docker info
+docker run - скачивает и запускает образ
+docker ps - запущенные контейнеры, docker ps -а (всее контейнеры)
+docker start - включает контейнер
+docker inspect - информация о контейнере
+docker stop - остановка контейнера
+docker rm - удаление контейнера
+docker images - образы на локальной машине
+docker network - инф сети докера (docker network inspect)
+
