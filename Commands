@@ -60,3 +60,12 @@ Java
 jre - для запуска
 jdk - для разработчиков
 apt install default-jdk
+
+Maven
+apt install maven
+mvn package - запаковать
+
+
+GIT
+apt install git
+git clone - скопировать репозиторий
