@@ -100,4 +100,4 @@ docker stop - остановка контейнера
 docker rm - удаление контейнера
 docker images - образы на локальной машине
 docker network - инф сети докера (docker network inspect)
-
+docker exec - Запустить команду в контейнере
